@@ -1,0 +1,103 @@
+body {
+  background-color: hsl(226, 43%, 10%);
+  color: hsl(236, 100%, 87%);
+}
+main {
+  margin: 70px 40px;
+  display: flex;
+  gap: 20px;
+}
+#profile {
+  flex: 1;
+  border-radius: 20px;
+  background-color: hsl(235, 46%, 20%);
+}
+#bg-blue {
+  background-color: hsl(246, 80%, 60%);
+  border-radius: 20px;
+  padding: 20px 16px 60px 16px;
+}
+#profile img {
+  width: 60px;
+}
+h1 {
+  font-size: 45px;
+  color: white;
+  font-weight: 200;
+}
+#profile button {
+  display: block;
+  background: none;
+  border: none;
+  padding: 20px;
+  color: inherit;
+}
+#data {
+  flex: 3;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.category {
+  width: 27%;
+  display: flex;
+  flex-direction: column;
+  /* height: 250px; */
+  border-radius: 20px;
+}
+.category > img {
+  height: 20%;
+  padding-left: 70%;
+  object-fit: cover;
+  object-position: top;
+}
+.category > div {
+  height: 80%;
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 20px;
+  padding: 16px;
+}
+
+.category > div p:first-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.category > div p:nth-child(2) {
+  font-size: 40px;
+}
+.category:nth-child(1) {
+  background-color: hsl(15, 100%, 70%);
+}
+.category:nth-child(2) {
+  background-color: hsl(195, 74%, 62%);
+}
+.category:nth-child(3) {
+  background-color: hsl(348, 100%, 68%);
+}
+.category:nth-child(4) {
+  background-color: hsl(145, 58%, 55%);
+}
+.category:nth-child(5) {
+  background-color: hsl(264, 64%, 52%);
+}
+.category:nth-child(6) {
+  background-color: hsl(43, 84%, 65%);
+}
+
+@media (max-width: 600px) {
+  main {
+    flex-direction: column;
+    margin: 15px;
+  }
+  #data {
+    flex-direction: column;
+  }
+  .category {
+    width: 100%;
+  }
+  .category > img {
+    padding-left: 85%;
+  }
+}

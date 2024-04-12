@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+/* css reset--- clean up page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+}
+.sect-padding {
+  padding: 40px 70px;
+}
+
+#main-bg {
+  background-image: url(./images/desktop/image-hero.jpg);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 0px 10px 25px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 200;
+  padding: 30px;
+  width: 50%;
+  border: 2px solid white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 50px;
+}
+
+#interactive {
+  display: flex;
+  align-items: flex-end;
+}
+#interactive-img {
+  flex: 1.6;
+}
+#interactive-img img {
+  width: 100%;
+}
+#interactive-text {
+  position: relative;
+  right: 80px;
+  flex: 1;
+  background-color: white;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+#interactive h2 {
+  color: black;
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+#interactive p {
+  color: hsl(0, 0%, 55%);
+}
+
+#fxd {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 18px;
+  border: none;
+  box-shadow: 0px 0px 4px darkgray;
+  z-index: 2;
+}
+#fxd:hover {
+  box-shadow: 0px 2px 6px darkgray;
+}
+
+.top-part {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.top-part h2 {
+  font-size: 31px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+.top-part a {
+  text-decoration: none;
+  border: 1px solid hsl(0, 0%, 55%);
+  color: hsl(0, 0%, 55%);
+  padding: 16px 20px;
+}
+.bottom-part {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.creation {
+  position: relative;
+  width: 23%;
+  margin-bottom: 25px;
+  background-color: black;
+  height: 320px;
+}
+.creation p {
+  position: absolute;
+  bottom: 22px;
+  left: 22px;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+.creation::before {
+  content: "";
+  background-color: rgba(0, 0, 0, 40%);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+/* back drops */
+/* position property, pseduo classes and pseudo elements -- practical examples */
+
+#creation1 {
+  background-image: url(./images/desktop/image-deep-earth.jpg);
+}
+#creation2 {
+  background-image: url(./images/desktop/image-night-arcade.jpg);
+}
+#creation3 {
+  background-image: url(./images/desktop/image-soccer-team.jpg);
+}
+#creation4 {
+  background-image: url(./images/desktop/image-grid.jpg);
+}
+#creation5 {
+  background-image: url(./images/desktop/image-from-above.jpg);
+}
+#creation6 {
+  background-image: url(./images/desktop/image-pocket-borealis.jpg);
+}
+#creation7 {
+  background-image: url(./images/desktop/image-curiosity.jpg);
+}
+#creation8 {
+  background-image: url(./images/desktop/image-fisheye.jpg);
+}
+
+footer {
+  background-color: black;
+}
+.footer-top,
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.footer-bottom p {
+  color: rgb(173, 168, 168);
+}
+
+/* media quereries // mobile view*/
+/* sql -- data analysis  */
