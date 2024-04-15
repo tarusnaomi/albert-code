@@ -32,3 +32,4 @@ console.log("dojhjdf");
 //Sum of Even Numbers: Create a program that processes an array of numbers. Traverse the array and accumulate the sum of all even numbers within it. Print the final sum.
 
 //Leap Year Check: Create a function that accepts a year as input and employs an if statement to check if it's a leap year. A leap year is any year that is evenly divisible by 4 (except for years that are evenly divisible by 100 but not by 400).
+// hghg
